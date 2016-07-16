@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SmallBusiness</string>
+    <string name="nameEnterprise">Enterprise Name: Interstellar Inc.</string>
+    <string name="phone">Phone Number: +55(11) 2222-4444</string>
+    <string name="description">Description:
+        Interstellar App is a best way to go to deep universe. Our trips let you walk on the Moon,
+        take selfies on the Saturn rings and try yourself the relativity effects.
+    </string>
+
+    <string name="address">
+        Address: 22°42`38.46"N e 142°34`44.52"E
+    </string>
+
+</resources>

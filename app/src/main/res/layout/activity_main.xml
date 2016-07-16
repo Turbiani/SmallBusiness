@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nanodegree.basic.android.turbiani.com.br.smallbusiness.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:id="@+id/imageTop"
+        android:src="@drawable/interestellar"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interestellar"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:id="@+id/txtTitle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/imageTop">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nameEnterprise"
+            android:id="@+id/txtName"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:id="@+id/txtPhone"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:id="@+id/txtDescription"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:id="@+id/txtAddress"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="16dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
