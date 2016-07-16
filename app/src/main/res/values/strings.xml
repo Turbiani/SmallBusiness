@@ -6,9 +6,9 @@
         Interstellar App is a best way to go to deep universe. Our trips let you walk on the Moon,
         take selfies on the Saturn rings and try yourself the relativity effects.
     </string>
-
     <string name="address">
         Address: 22°42`38.46"N e 142°34`44.52"E
     </string>
+    <string name="title">Interestellar</string>
 
 </resources>
